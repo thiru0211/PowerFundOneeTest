@@ -3,12 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="loginPage.InvestorSetup"/>
-      <class name="loginPage.ViewUser"/>
-      <class name="loginPage.Login"/>
-      <class name="loginPage.InstallerSetup"/>
-      <class name="loginPage.BankSetup"/>
-      <class name="loginPage.Reports"/>
+      <class name="allPages.ViewUser"/>
+      <class name="allPages.Login"/>
+      <class name="allPages.Reports"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
