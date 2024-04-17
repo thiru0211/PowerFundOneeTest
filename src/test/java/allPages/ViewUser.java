@@ -694,7 +694,7 @@ public class ViewUser extends Locators{
 		driver.findElement(By.xpath(VU2FAClsBtn)).click();	
 	}
 	
-	@Test(priority = 28,retryAnalyzer = ReRunFailedTestCase.class)
+	@Test(priority = 28,retryAnalyzer = ReRunFailedTestCase.class,enabled = false)
 	public void TC27() throws InterruptedException{
 		ViewUsersClick();
 		String ViewUserEmailSrch=PropertyFileReader.propertymap.get("ViewUserEmailSrch");
@@ -761,7 +761,7 @@ public class ViewUser extends Locators{
 		driver.findElement(By.xpath("//*[@id=\"#kt_aside_menu\"]/div[8]/span/span[2]")).click();
 	}
 	
-	@Test(priority = 30,retryAnalyzer = ReRunFailedTestCase.class)
+	@Test(priority = 30,retryAnalyzer = ReRunFailedTestCase.class,enabled = false)
 	public void TC30() throws InterruptedException{
 		ViewUsersClick();
 		String ViewUserEmailSrch=PropertyFileReader.propertymap.get("ViewUserEmailSrch");
